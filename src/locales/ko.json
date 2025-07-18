@@ -1,0 +1,167 @@
+{
+    "Home": "홈",
+    "Features": "기능",
+    "Use Case Highlights": "주요 활용 사례",
+    "How it works": "작동 방식",
+    "Overview": "개요",
+    "Dashboard": "대시보드",
+    "Request A Demo": "데모 요청",
+    "Why retailers choose Gestore": "소매업체가 Gestore를 선택하는 이유",
+    "page": {
+        "title": "GeStore - 소매의 미래"
+    },
+    "heroSection": {
+        "heading": "차세대 매장 인텔리전스",
+        "subtext": "AI를 활용해 고객 행동을 분석하고, 진열대를 최적화하며, 결제를 간소화하고, 광고 효과를 높이세요. 혁신적인 비즈니스 결정을 위한 매장 인사이트를 얻을 수 있습니다!",
+        "requestDemo": {
+            "placeholder": "비즈니스 이메일"
+        },
+        "introduceVideo": {
+            "src": "https://d33o87vdb4ekft.cloudfront.net/Gestore_Introduce_KO.mp4"
+        }
+    },
+    "feature": {
+        "description": "강력한 도구로 고객 인사이트를 강화하고, 운영을 효율화하며, 수익성을 높이세요.",
+        "feature1": {
+            "title": "실시간 알림",
+            "description": "결제 대기 시간, 진열대 품절 비율, 고객 관심 등 매장의 주요 이벤트 발생 시 이메일, SMS, 대시보드로 즉시 알림을 전송합니다"
+        },
+        "feature2": {
+            "title": "대시보드",
+            "description": "운영부터 마케팅까지 역할별 KPI 대시보드를 제공하며, 비즈니스 요구에 맞게 맞춤화할 수 있습니다. 단일 또는 여러 매장의 인사이트를 한 곳에서 확인하세요"
+        }
+    },
+    "howGestore": {
+        "heading": "Gestore가 오프라인 매장의 성공을 어떻게 돕나요?",
+        "subtext": "결제, 진열대, 마케팅 구역의 AI 카메라 데이터로 핵심 KPI를 실시간 지원합니다. 더 빠르게 행동하고, 더 스마트하게 재고를 관리하며, 더 잘 판매할 수 있습니다.",
+        "sankeyCharts": {
+            "chart1": "진열대 구역 - KPI 트리",
+            "chart2": "결제 구역 - KPI 트리",
+            "chart3": "마케팅 구역 - KPI 트리"
+        }
+    },
+    "useCases": {
+        "useCase1": {
+            "heading": "서비스 대기 시간",
+            "subtext": "대기 시간을 줄여 고객 경험을 향상합니다.",
+            "features": {
+                "feature1": {
+                    "title": "데이터 기반 대시보드 리포트",
+                    "detail1": "결제, 상담, 대기 등 고객이 서비스를 위해 소요한 총 시간을 리포트",
+                    "detail2": "결제 또는 상담을 받기 전에 대기 구역을 떠난 고객 비율 리포트"
+                },
+                "feature2": {
+                    "title": "AI 기능",
+                    "detail1": "서비스 시간 유형에 따른 KPI 정의 맞춤화",
+                    "detail2": "고객과 직원 식별, 상담·대기 행동 감지",
+                    "detail3": "실제 레이아웃과 앱상의 2D 시각화 커스터마이즈"
+                }
+            }
+        },
+        "useCase2": {
+            "heading": "미디어 마케팅 최적화",
+            "subtext": "마케팅 콘텐츠에 관심 있는 인원, 평균 관심 시간, 관심 고객의 연령 및 특성을 분석합니다.",
+            "features": {
+                "feature1": {
+                    "title": "데이터 기반 대시보드 리포트",
+                    "detail1": "마케팅 콘텐츠별 효과를 대시보드로 리포트",
+                    "detail2": "고객 동선, 광고 콘텐츠별 관심 시간, 고객 특성 등 리포트"
+                },
+                "feature2": {
+                    "title": "AI 기능",
+                    "detail1": "마케팅 콘텐츠 유형별 KPI 정의 맞춤화",
+                    "detail2": "고객 식별 및 특성(성별, 연령 등) 분석",
+                    "detail3": "얼굴 방향, 시선 분석으로 고객 관심 파악",
+                    "detail4": "실제 레이아웃과 앱 내 2D 매핑 맞춤화"
+                }
+            }
+        },
+        "useCase3": {
+            "heading": "진열대 품절 모니터링",
+            "subtext": "진열대 품절로 인한 최대 50% 판매 손실을 방지하세요.",
+            "features": {
+                "feature1": {
+                    "title": "데이터 기반 대시보드 리포트",
+                    "detail1": "각 진열대의 실시간 품절 현황 리포트",
+                    "detail2": "품절 알림 후 상품 보충까지 평균 소요 시간 리포트",
+                    "detail3": "품절 시 진열대를 방문한 고객 수 리포트"
+                },
+                "feature2": {
+                    "title": "AI 기능",
+                    "detail1": "모니터링 품목 유형 정의 맞춤화",
+                    "detail2": "채소, 신선식품 등 품목별 수량, 실제 부피로 품절 감지",
+                    "detail3": "실제 레이아웃과 앱 내 2D 시각화 맞춤화"
+                }
+            }
+        }
+    },
+    "reasons": {
+        "title": "소매업체가 Gestore를 선택하는 이유",
+        "description": "전 세계 고객들이 Gestore에 대해 말하고 있습니다.",
+        "reason1": {
+            "title": "하나의 플랫폼에서 고객 행동과 매장 운영을 360도 파악",
+            "description": "하나의 플랫폼에서 고객 행동과 매장 운영을 360도 파악"
+        },
+        "reason2": {
+            "title": "매장 상황을 보는 것뿐 아니라 실시간 알림으로 즉각 대응",
+            "description": "매장 상황을 보는 것뿐 아니라 실시간 알림으로 즉각 대응"
+        },
+        "reason3": {
+            "title": "기존 KPI 대시보드는 비즈니스 목표에 맞게 손쉽게 맞춤화",
+            "description": "기존 KPI 대시보드는 비즈니스 목표에 맞게 손쉽게 맞춤화"
+        },
+        "reason4": {
+            "title": "고정 및 사용량 기반 요금제로 비용 최적화",
+            "description": "고정 및 사용량 기반 요금제로 비용 최적화"
+        },
+        "reason5": {
+            "title": "기존 비디오 카메라 시스템과 손쉬운 통합",
+            "description": "기존 비디오 카메라 시스템과 손쉬운 통합"
+        },
+        "reason6": {
+            "title": "Gestore는 데모가 아니라 실사용 가능한 플랫폼으로 신속한 도입 가능",
+            "description": "Gestore는 데모가 아니라 실사용 가능한 플랫폼으로 신속한 도입 가능"
+        }
+    },
+    "howItWork": {
+        "heading": "작동 방식",
+        "subtext": "카메라 데이터를 자동 수집·분석하여 고객 행동과 매장 상태를 파악, 최적화된 운영 인사이트 제공",
+        "step1": "매장 카메라를 플랫폼에 연결",
+        "step2": "매장 운영에 맞게 모델 학습",
+        "step3": "며칠간 데이터 수집 후 대시보드와 알림 제공",
+        "step4": "쉽게 모니터링 및 관리"
+    },
+    "storeTypes": {
+        "type1": "슈퍼마켓",
+        "type2": "편의점",
+        "type3": "백화점",
+        "type4": "약국"
+    },
+    "clientFeedback": {
+        "heading": "고객 후기",
+        "client1": {
+            "name": "John Down",
+            "feedback": "우리는 항상 원하는 위치에 있는 것은 아닙니다. 우리는 끊임없이 성장하고, 실수하며, 자신을 표현하고 꿈을 실현하려고 노력합니다."
+        },
+        "client2": {
+            "name": "Marcell Glock",
+            "feedback": "우리는 항상 원하는 위치에 있는 것은 아닙니다. 우리는 끊임없이 성장하고, 실수하며, 자신을 표현하고 꿈을 실현하려고 노력합니다."
+        },
+        "client3": {
+            "name": "Mathew Goat",
+            "feedback": "우리는 항상 원하는 위치에 있는 것은 아닙니다. 우리는 끊임없이 성장하고, 실수하며, 자신을 표현하고 꿈을 실현하려고 노력합니다."
+        }
+    },
+    "ctaSection": {
+        "heading": "소매 비즈니스를 혁신할 준비가 되었나요?",
+        "subtext": "GeStore를 통해 성장과 효율성을 높이고 있는 선도 소매업체에 합류하세요.",
+        "formSection": {
+            "namePlaceholder": "이름",
+            "businessEmailPlaceholder": "비즈니스 이메일",
+            "messagePlaceholder": "메시지"
+        }
+    },
+    "footer": {
+        "slogan": "차세대 매장 인텔리전스"
+    }
+}

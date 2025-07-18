@@ -1,0 +1,167 @@
+{
+  "Home": "Home",
+  "Features": "Features",
+  "Use Case Highlights": "Use Case Highlights",
+  "How it works": "How it works",
+  "Overview": "Overview",
+  "Dashboard": "Dashboard",
+  "Request A Demo": "Request A Demo",
+  "Why retailers choose Gestore": "Why retailers choose Gestore",
+  "page": {
+    "title": "GeStore - Retail Future"
+  },
+  "heroSection": {
+    "heading": "The Next Generation of Store Intelligence",
+    "subtext": "Leverage AI to analyze customer behavior, optimize shelves, streamline payments, and enhance ads. Gain deep store insights for game-changing business decisions!",
+    "requestDemo": {
+      "placeholder": "Business Email"
+    },
+    "introduceVideo": {
+      "src": "https://d33o87vdb4ekft.cloudfront.net/Gestore_Introduce_ENG.mp4"
+    }
+  },
+  "feature": {
+    "description": "Unlock powerful tools to enhance customer insights, streamline operations, and boost profitability.",
+    "feature1": {
+      "title": "Realtime Alert",
+      "description": "Send instant alerts via email, SMS, or dashboard when critical events are detected in your store such as long checkout waiting times, high shelf empty ratio, customer interest detected"
+    },
+    "feature2": {
+      "title": "Dashboard",
+      "description": "Provides role-based dashboards with KPIs that matter from operations to marketing, and can be tailored to your critical business needs. Access actionable insights across single or multiple stores, all in one place"
+    }
+  },
+  "howGestore": {
+    "heading": "How Gestore help retailers achieve business success in brick-and-mortar store?",
+    "subtext": "Support your business strategy with critical KPIs powered by AI camera data from checkout areas, shelves, and marketing zones. You can act faster, stock smarter, and sell better.",
+    "sankeyCharts": {
+      "chart1": "Shelf area - KPI trees",
+      "chart2": "Checkout area - KPI trees",
+      "chart3": "Marketing area - KPI trees"
+    }
+  },
+  "useCases": {
+    "useCase1": {
+      "heading": "Service Waiting Time",
+      "subtext": "Enhancing customer experience by reducing waiting times.",
+      "features": {
+        "feature1": {
+          "title": "Data-driven dashboard report",
+          "detail1": "Report the total time customers need for services: payment, consultation, waiting to be consulted...",
+          "detail2": "Report the percentage of customers leaving the waiting area without making a payment or before receiving consultation"
+        },
+        "feature2": {
+          "title": "AI feature",
+          "detail1": "Customize the definitions of the relevant business metric KPIs according to the type of service time",
+          "detail2": "Identify customers and staff, actions taken for consultation, actions for waiting",
+          "detail3": "Customize the 2D visualisation between the actual layout and the layout on the app"
+        }
+      }
+    },
+    "useCase2": {
+      "heading": "Optimising Media Marketing",
+      "subtext": "How many people are interested in the marketing content, what is the average attention span, what is the interest and age and demographics of the interested audience?",
+      "features": {
+        "feature1": {
+          "title": "Data-driven dashboard report",
+          "detail1": "Report dashboard based on the effectiveness of each Marketing content",
+          "detail2": "Report on customers footfall ratio: Where customers are, which advertising content they pay attention to, for how long, customer attributes..."
+        },
+        "feature2": {
+          "title": "AI feature",
+          "detail1": "Customize the definitions of business metric KPIs corresponding to the type of Marketing content",
+          "detail2": "Identify customer, analyse customer characteristics (gender, age...)",
+          "detail3": "Identify customer interest through facial direction, eye gaze...",
+          "detail4": "Customize the 2D mapping between the actual layout and the layout on the app"
+        }
+      }
+    },
+    "useCase3": {
+      "heading": "Empty Shelves Monitoring",
+      "subtext": "Prevent 50% potential lost sale by product empty on shelves.",
+      "features": {
+        "feature1": {
+          "title": "Data-driven dashboard report",
+          "detail1": "Report real-time stock shortages on each shelf",
+          "detail2": "Report the average time required to recover stock after a shortage alert",
+          "detail3": "Report the number of customers visiting the shelves when stock is low"
+        },
+        "feature2": {
+          "title": "AI feature",
+          "detail1": "Customize the definition of the item type to be monitored",
+          "detail2": "Identify shortages for vegetables, fresh product, etc, by quantity, by actual volume of goods",
+          "detail3": "Customize the 2D visualisation between the actual layout and the layout on the app"
+        }
+      }
+    }
+  },
+  "reasons": {
+    "title": "Why retailers choose Gestore",
+    "description": "See what people from all around the world are saying about Gestore.",
+    "reason1": {
+      "title": "One platform - 360-degree view of customer behavior and store operation.",
+      "description": "One platform - 360-degree view of customer behavior and store operation."
+    },
+    "reason2": {
+      "title": "Don’t just see what’s happening in your store, you act on it in real time via alert",
+      "description": "Don’t just see what’s happening in your store, you act on it in real time via alert"
+    },
+    "reason3": {
+      "title": "Pre-built dashboards with existing KPIs asset are easily customized for your critical business goal.",
+      "description": "Pre-built dashboards with existing KPIs asset are easily customized for your critical business goal."
+    },
+    "reason4": {
+      "title": "Offers fixed and usage-based pricing for cost optimization.",
+      "description": "Offers fixed and usage-based pricing for cost optimization."
+    },
+    "reason5": {
+      "title": "Easy integration into your existing video camera systems.",
+      "description": "Easy integration into your existing video camera systems."
+    },
+    "reason6": {
+      "title": "Gestore isn’t just a demo - it's a production-ready platform fastening deployment time.",
+      "description": "Gestore isn’t just a demo - it's a production-ready platform fastening deployment time."
+    }
+  },
+  "howItWork": {
+    "heading": "How does it work",
+    "subtext": "Automatically collect camera data, analyze customer behavior and store conditions, and provide actionable insights for optimized management",
+    "step1": "Connect store cameras to the platform",
+    "step2": "Train models to match store operations",
+    "step3": "Dashboard and alerts ready after days of data collection",
+    "step4": "Monitor and manage with ease"
+  },
+  "storeTypes": {
+    "type1": "Super Market",
+    "type2": "Convenient Store",
+    "type3": "Department Store",
+    "type4": "Pharmacy Store"
+  },
+  "clientFeedback": {
+    "heading": "What our Clients Are Saying",
+    "client1": {
+      "name": "John Down",
+      "feedback": "We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams."
+    },
+    "client2": {
+      "name": "Marcell Glock",
+      "feedback": "We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams."
+    },
+    "client3": {
+      "name": "Mathew Goat",
+      "feedback": "We’re not always in the position that we want to be at. We’re constantly growing. We’re constantly making mistakes. We’re constantly trying to express ourselves and actualize our dreams."
+    }
+  },
+  "ctaSection": {
+    "heading": "Ready to Transform Your Retail Business?",
+    "subtext": "Join leading retailers using GeStore to drive growth and efficiency.",
+    "formSection": {
+      "namePlaceholder": "Name",
+      "businessEmailPlaceholder": "Business Email",
+      "messagePlaceholder": "Message for us"
+    }
+  },
+  "footer": {
+    "slogan": "The next generation of Store intelligence"
+  }
+}

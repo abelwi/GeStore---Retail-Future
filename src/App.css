@@ -1,0 +1,35 @@
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.text-gradient.text-primary {
+    background-image: linear-gradient(310deg, var(--bs-gradient-primary-right), var(--bs-gradient-primary-left));
+}
+
+.text-gradient.text-info {
+    background-image: linear-gradient(310deg, var(--bs-gradient-info-right), var(--bs-gradient-info-left));
+}
+
+.text-gradient.text-success {
+    background-image: linear-gradient(310deg, var(--bs-gradient-success-right), var(--bs-gradient-success-left));
+}
+
+.text-gradient.text-warning {
+    background-image: linear-gradient(310deg, var(--bs-gradient-warning-right), var(--bs-gradient-warning-left));
+}
+
+.text-gradient.text-danger {
+    background-image: linear-gradient(310deg, var(--bs-gradient-danger-right), var(--bs-gradient-danger-left));
+}
+
+.text-gradient.text-dark {
+    background-image: linear-gradient(310deg, var(--bs-gradient-dark-right), var(--bs-gradient-dark-left));
+}

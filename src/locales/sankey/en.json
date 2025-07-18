@@ -1,0 +1,76 @@
+{
+  "chart1": {
+    "level1": {
+      "tabLabel": "Business Objective",
+      "node1": "Optimize operation"
+    },
+    "level2": {
+      "tabLabel": "Strategy",
+      "node1": "Prevent loss sales"
+    },
+    "level3": {
+      "tabLabel": "KPIs",
+      "node1": "On-shelf availability (OSA) rate",
+      "node2": "Shelf shortage rate",
+      "node3": "On-time shelf recovery rate",
+      "node4": "#customer"
+    },
+    "level4": {
+      "tabLabel": "Definition",
+      "node1": "The percentage of product readily available for purchase on shelves",
+      "node2": "Total duration of shelves exceeding empty threshold / Total operating hour of shelves",
+      "node3": "Number of times of on-time shelf replenishment / Number of alerts",
+      "node4": "Number of customers searching for product on shelves during period when empty ratio exceed alert threshold"
+    }
+  },
+  "chart2": {
+    "level1": {
+      "tabLabel": "Business Objective",
+      "node1": "Improve CX"
+    },
+    "level2": {
+      "tabLabel": "Strategy",
+      "node1": "Reduce service time"
+    },
+    "level3": {
+      "tabLabel": "KPIs",
+      "node1": "Service delivery time",
+      "node2": "Service coverage rate",
+      "node3": "Service rating",
+      "node4": "Checkout abandonment rate"
+    },
+    "level4": {
+      "tabLabel": "Definition",
+      "node1": "Measures the total time taken to serve a customer in store, including waiting time, processing time and consultation time",
+      "node2": "Number of customers being served / Number of customers entering the waiting area",
+      "node3": "Customer feelings about in-store shopping experience",
+      "node4": "Percentage of customers leaving the waiting area before being served"
+    }
+  },
+  "chart3": {
+    "level1": {
+      "tabLabel": "Business Objective",
+      "node1": "Optimize media marketing"
+    },
+    "level2": {
+      "tabLabel": "Strategy",
+      "node1": "Know your customers"
+    },
+    "level3": {
+      "tabLabel": "KPIs",
+      "node1": "#customers viewed poster",
+      "node2": "#customers viewed poster content",
+      "node3": "Viewing rate",
+      "node4": "Viewing time per poster",
+      "node5": "Viewing time per poster content"
+    },
+    "level4": {
+      "tabLabel": "Definition",
+      "node1": "#customers who stop to view a specific poster (for at least 5s)",
+      "node2": "#customers who view a specific content in a specific poster (for at least 5s)",
+      "node3": "Viewing rate = #customers viewed poster / #customers passing",
+      "node4": "Average viewing time customer spent for a poster",
+      "node5": "Average viewing time customer spent for a specific content in a specific poster"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "chart1": {
+        "level1": {
+            "tabLabel": "Mục tiêu kinh doanh",
+            "node1": "Tối ưu vận hành"
+        },
+        "level2": {
+            "tabLabel": "Chiến lược",
+            "node1": "Ngăn ngừa mất doanh số"
+        },
+        "level3": {
+            "tabLabel": "Chỉ số KPI",
+            "node1": "Tỷ lệ có hàng trên kệ (OSA)",
+            "node2": "Tỷ lệ thiếu hàng trên kệ",
+            "node3": "Tỷ lệ bổ sung kệ đúng hạn",
+            "node4": "Số lượng khách"
+        },
+        "level4": {
+            "tabLabel": "Định nghĩa",
+            "node1": "Tỷ lệ sản phẩm sẵn sàng để bán trên kệ",
+            "node2": "Tổng thời gian kệ vượt ngưỡng trống / Tổng thời gian hoạt động của kệ",
+            "node3": "Số lần bổ sung kệ đúng hạn / Số lượng cảnh báo",
+            "node4": "Số khách tìm sản phẩm trên kệ khi tỷ lệ trống vượt ngưỡng cảnh báo"
+        }
+    },
+    "chart2": {
+        "level1": {
+            "tabLabel": "Mục tiêu kinh doanh",
+            "node1": "Cải thiện trải nghiệm khách hàng (CX)"
+        },
+        "level2": {
+            "tabLabel": "Chiến lược",
+            "node1": "Giảm thời gian phục vụ"
+        },
+        "level3": {
+            "tabLabel": "Chỉ số KPI",
+            "node1": "Thời gian phục vụ",
+            "node2": "Tỷ lệ bao phủ dịch vụ",
+            "node3": "Đánh giá dịch vụ",
+            "node4": "Tỷ lệ bỏ thanh toán"
+        },
+        "level4": {
+            "tabLabel": "Định nghĩa",
+            "node1": "Tổng thời gian phục vụ khách trong cửa hàng, bao gồm chờ, xử lý và tư vấn",
+            "node2": "Số khách được phục vụ / Số khách vào khu vực chờ",
+            "node3": "Cảm nhận của khách về trải nghiệm mua sắm tại cửa hàng",
+            "node4": "Tỷ lệ khách rời khu vực chờ trước khi được phục vụ"
+        }
+    },
+    "chart3": {
+        "level1": {
+            "tabLabel": "Mục tiêu kinh doanh",
+            "node1": "Tối ưu marketing truyền thông"
+        },
+        "level2": {
+            "tabLabel": "Chiến lược",
+            "node1": "Hiểu khách hàng"
+        },
+        "level3": {
+            "tabLabel": "Chỉ số KPI",
+            "node1": "Số khách xem poster",
+            "node2": "Số khách xem nội dung poster",
+            "node3": "Tỷ lệ xem",
+            "node4": "Thời gian xem trung bình mỗi poster",
+            "node5": "Thời gian xem trung bình mỗi nội dung poster"
+        },
+        "level4": {
+            "tabLabel": "Định nghĩa",
+            "node1": "Số khách dừng lại xem một poster cụ thể (tối thiểu 5 giây)",
+            "node2": "Số khách xem một nội dung cụ thể trong một poster cụ thể (tối thiểu 5 giây)",
+            "node3": "Tỷ lệ xem = Số khách xem poster / Số khách đi ngang",
+            "node4": "Thời gian trung bình khách dành cho một poster",
+            "node5": "Thời gian trung bình khách dành cho một nội dung cụ thể trong poster"
+        }
+    }
+}

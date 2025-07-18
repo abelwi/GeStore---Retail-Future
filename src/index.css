@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+#language-select {
+    max-width: 120px;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0 0.375rem 0.25rem;
+    background-color: #fff;
+    color: #333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.fadeInBottom {
+  animation: fadeInBottom 1s ease-in-out;
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sankey-loading {
+    position: relative;
+    min-height: 400px;
+}
+
+.sankey-loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #e92695;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: -20px 0 0 -20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#sankey_chart_1,
+#sankey_chart_2,
+#sankey_chart_3 {
+    width: 1200px;
+    height: 700px;
+}
+
+
+@media (max-width: 1400px) {
+
+    #sankey_chart_1,
+    #sankey_chart_2,
+    #sankey_chart_3 {
+        width: 1000px;
+        height: 700px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    #sankey_chart_1,
+    #sankey_chart_2,
+    #sankey_chart_3 {
+        width: 900px;
+        height: 700px;
+    }
+
+    .text-center-xl {
+        text-align: center !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    #sankey_chart_1,
+    #sankey_chart_2,
+    #sankey_chart_3 {
+        width: 700px;
+        height: 700px;
+    }
+
+    .text-center-lg {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #sankey_chart_1,
+    #sankey_chart_2,
+    #sankey_chart_3 {
+        width: 600px;
+        height: 700px;
+    }
+}
+
+.usecase-list-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.usecase-list-section ul li {
+    display: flex;
+    align-items: start;
+    padding: 20px 0;
+    border-bottom: 0.01rem solid #eaeaea;
+    font-size: 15px;
+}
+
+.usecase-list-section ul li:last-child {
+    border-bottom: none;
+}
+
+.usecase-list-section .item-icon {
+    content: '\25A0';
+    color: #2ecc71;
+    margin-top: -3px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.usecase-item-dot {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 7px;
+    width: 10px;
+    height: 10px;
+    background-color: #2ecc71;
+}

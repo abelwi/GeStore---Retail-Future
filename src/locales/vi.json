@@ -1,0 +1,167 @@
+{
+    "Home": "Trang chủ",
+    "Features": "Tính năng",
+    "Use Case Highlights": "Điểm nổi bật ứng dụng",
+    "How it works": "Cách hoạt động",
+    "Overview": "Tổng quan",
+    "Dashboard": "Bảng điều khiển",
+    "Request A Demo": "Yêu cầu demo",
+    "Why retailers choose Gestore": "Tại sao nhà bán lẻ chọn Gestore",
+    "page": {
+        "title": "GeStore - Tương lai ngành bán lẻ"
+    },
+    "heroSection": {
+        "heading": "Thế hệ tiếp theo của trí tuệ cửa hàng",
+        "subtext": "Ứng dụng AI để phân tích hành vi khách hàng, tối ưu kệ hàng, đơn giản hóa thanh toán và tăng cường quảng cáo. Nhận thông tin sâu sắc về cửa hàng để ra quyết định thay đổi cuộc chơi!",
+        "requestDemo": {
+            "placeholder": "Email doanh nghiệp"
+        },
+        "introduceVideo": {
+            "src": "https://d33o87vdb4ekft.cloudfront.net/Gestore_Introduce_ENG.mp4"
+        }
+    },
+    "feature": {
+        "description": "Khai phá công cụ mạnh mẽ để tăng hiểu biết khách hàng, tối ưu vận hành và nâng cao lợi nhuận.",
+        "feature1": {
+            "title": "Cảnh báo thời gian thực",
+            "description": "Gửi cảnh báo tức thì qua email, SMS hoặc bảng điều khiển khi phát hiện sự kiện quan trọng như thời gian chờ thanh toán dài, tỷ lệ kệ trống cao, phát hiện khách quan tâm"
+        },
+        "feature2": {
+            "title": "Bảng điều khiển",
+            "description": "Cung cấp bảng điều khiển theo vai trò với KPI quan trọng từ vận hành đến marketing, dễ dàng tùy chỉnh theo nhu cầu kinh doanh. Dễ dàng truy cập thông tin hành động cho một hoặc nhiều cửa hàng, tất cả trong một nơi"
+        }
+    },
+    "howGestore": {
+        "heading": "Gestore giúp nhà bán lẻ thành công trong cửa hàng vật lý như thế nào?",
+        "subtext": "Hỗ trợ chiến lược kinh doanh bằng các KPI quan trọng từ dữ liệu camera AI tại quầy thanh toán, kệ hàng và khu vực marketing. Hành động nhanh hơn, quản lý hàng hóa thông minh hơn và bán hàng tốt hơn.",
+        "sankeyCharts": {
+            "chart1": "Khu vực kệ hàng - Cây KPI",
+            "chart2": "Khu vực thanh toán - Cây KPI",
+            "chart3": "Khu vực marketing - Cây KPI"
+        }
+    },
+    "useCases": {
+        "useCase1": {
+            "heading": "Thời gian chờ dịch vụ",
+            "subtext": "Nâng cao trải nghiệm khách hàng bằng cách giảm thời gian chờ.",
+            "features": {
+                "feature1": {
+                    "title": "Báo cáo bảng điều khiển dựa trên dữ liệu",
+                    "detail1": "Báo cáo tổng thời gian khách hàng cần cho các dịch vụ: thanh toán, tư vấn, chờ tư vấn,...",
+                    "detail2": "Báo cáo tỷ lệ khách rời khu vực chờ mà không thanh toán hoặc chưa nhận tư vấn"
+                },
+                "feature2": {
+                    "title": "Tính năng AI",
+                    "detail1": "Tùy chỉnh định nghĩa KPI liên quan theo loại thời gian dịch vụ",
+                    "detail2": "Nhận diện khách hàng và nhân viên, hành động tư vấn, hành động chờ",
+                    "detail3": "Tùy chỉnh trực quan 2D giữa mặt bằng thực tế và trên ứng dụng"
+                }
+            }
+        },
+        "useCase2": {
+            "heading": "Tối ưu hóa marketing truyền thông",
+            "subtext": "Có bao nhiêu người quan tâm nội dung marketing, thời gian chú ý trung bình, sở thích và nhân khẩu học của khách?",
+            "features": {
+                "feature1": {
+                    "title": "Báo cáo bảng điều khiển dựa trên dữ liệu",
+                    "detail1": "Báo cáo hiệu quả từng nội dung marketing trên dashboard",
+                    "detail2": "Báo cáo tỉ lệ khách ra vào: khách ở đâu, chú ý quảng cáo nào, thời gian bao lâu, đặc điểm khách..."
+                },
+                "feature2": {
+                    "title": "Tính năng AI",
+                    "detail1": "Tùy chỉnh định nghĩa KPI theo từng loại nội dung Marketing",
+                    "detail2": "Nhận diện khách, phân tích đặc điểm (giới tính, tuổi...)",
+                    "detail3": "Nhận diện mối quan tâm qua hướng mặt, ánh mắt...",
+                    "detail4": "Tùy chỉnh bản đồ 2D giữa thực tế và trên ứng dụng"
+                }
+            }
+        },
+        "useCase3": {
+            "heading": "Giám sát kệ trống",
+            "subtext": "Ngăn chặn 50% doanh thu mất đi do sản phẩm hết trên kệ.",
+            "features": {
+                "feature1": {
+                    "title": "Báo cáo bảng điều khiển dựa trên dữ liệu",
+                    "detail1": "Báo cáo thiếu hàng trên từng kệ theo thời gian thực",
+                    "detail2": "Báo cáo thời gian trung bình phục hồi hàng sau cảnh báo thiếu",
+                    "detail3": "Báo cáo số khách ghé kệ khi kệ thiếu hàng"
+                },
+                "feature2": {
+                    "title": "Tính năng AI",
+                    "detail1": "Tùy chỉnh định nghĩa loại sản phẩm cần giám sát",
+                    "detail2": "Phát hiện thiếu hàng cho rau củ, sản phẩm tươi sống... theo số lượng, thể tích thực tế",
+                    "detail3": "Tùy chỉnh trực quan 2D giữa mặt bằng thực tế và trên ứng dụng"
+                }
+            }
+        }
+    },
+    "reasons": {
+        "title": "Tại sao nhà bán lẻ chọn Gestore",
+        "description": "Khách hàng toàn cầu đánh giá về Gestore.",
+        "reason1": {
+            "title": "Một nền tảng - góc nhìn 360 độ về hành vi khách hàng và vận hành cửa hàng.",
+            "description": "Một nền tảng - góc nhìn 360 độ về hành vi khách hàng và vận hành cửa hàng."
+        },
+        "reason2": {
+            "title": "Không chỉ quan sát, còn hành động ngay qua cảnh báo thời gian thực",
+            "description": "Không chỉ quan sát, còn hành động ngay qua cảnh báo thời gian thực"
+        },
+        "reason3": {
+            "title": "Bảng điều khiển dựng sẵn với KPI sẵn có, dễ tùy chỉnh cho mục tiêu kinh doanh",
+            "description": "Bảng điều khiển dựng sẵn với KPI sẵn có, dễ tùy chỉnh cho mục tiêu kinh doanh"
+        },
+        "reason4": {
+            "title": "Linh hoạt chi phí với gói cố định và theo sử dụng",
+            "description": "Linh hoạt chi phí với gói cố định và theo sử dụng"
+        },
+        "reason5": {
+            "title": "Dễ dàng tích hợp với hệ thống camera hiện có",
+            "description": "Dễ dàng tích hợp với hệ thống camera hiện có"
+        },
+        "reason6": {
+            "title": "Gestore không chỉ là demo – là nền tảng sẵn sàng triển khai thực tế nhanh chóng",
+            "description": "Gestore không chỉ là demo – là nền tảng sẵn sàng triển khai thực tế nhanh chóng"
+        }
+    },
+    "howItWork": {
+        "heading": "Cách hoạt động",
+        "subtext": "Tự động thu thập dữ liệu camera, phân tích hành vi khách hàng, tình trạng cửa hàng và cung cấp thông tin giúp quản lý tối ưu",
+        "step1": "Kết nối camera cửa hàng với nền tảng",
+        "step2": "Huấn luyện mô hình phù hợp vận hành cửa hàng",
+        "step3": "Sau vài ngày có dữ liệu, bảng điều khiển và cảnh báo sẵn sàng",
+        "step4": "Giám sát và quản lý dễ dàng"
+    },
+    "storeTypes": {
+        "type1": "Siêu thị",
+        "type2": "Cửa hàng tiện lợi",
+        "type3": "Cửa hàng bách hóa",
+        "type4": "Nhà thuốc"
+    },
+    "clientFeedback": {
+        "heading": "Khách hàng nói gì về chúng tôi",
+        "client1": {
+            "name": "John Down",
+            "feedback": "Chúng tôi không phải lúc nào cũng ở vị trí mong muốn. Chúng tôi luôn phát triển, luôn mắc sai lầm, luôn cố gắng thể hiện bản thân và hiện thực hóa ước mơ."
+        },
+        "client2": {
+            "name": "Marcell Glock",
+            "feedback": "Chúng tôi không phải lúc nào cũng ở vị trí mong muốn. Chúng tôi luôn phát triển, luôn mắc sai lầm, luôn cố gắng thể hiện bản thân và hiện thực hóa ước mơ."
+        },
+        "client3": {
+            "name": "Mathew Goat",
+            "feedback": "Chúng tôi không phải lúc nào cũng ở vị trí mong muốn. Chúng tôi luôn phát triển, luôn mắc sai lầm, luôn cố gắng thể hiện bản thân và hiện thực hóa ước mơ."
+        }
+    },
+    "ctaSection": {
+        "heading": "Sẵn sàng thay đổi doanh nghiệp bán lẻ của bạn?",
+        "subtext": "Tham gia cùng các nhà bán lẻ hàng đầu sử dụng GeStore để tăng trưởng và hiệu quả.",
+        "formSection": {
+            "namePlaceholder": "Họ Tên",
+            "businessEmailPlaceholder": "Email doanh nghiệp",
+            "messagePlaceholder": "Nhắn gửi cho chúng tôi"
+        }
+    },
+    "footer": {
+        "slogan": "Thế hệ tiếp theo của trí tuệ cửa hàng"
+    }
+}
