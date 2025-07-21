@@ -4,9 +4,9 @@ import wrapText from "./wrapText";
 
 const preprocessData = (svgRef, chart) => {
   const width = 1250;
-  const height = 600;
+  const height = 780;
   const fixedHeight = 120;
-  const nodePadding = 40;
+  let nodePadding = 40;
   const tabHeight = 100;
   const tabPaddingTop = 20;
   const fontSize = "12px";
@@ -44,7 +44,7 @@ const preprocessData = (svgRef, chart) => {
 
   const { nodes: layoutNodes, links: layoutLinks } = sankey()
     .nodeWidth(nodeWidth)
-    .nodePadding(160)
+    .nodePadding(40)
     .extent([[1, 1], [width, height]])({
       nodes: nodes.map((d) => ({ ...d })),
       links: links.map((d) => ({ ...d })),
@@ -52,21 +52,27 @@ const preprocessData = (svgRef, chart) => {
 
   // === Compute max column height across all columns ===
     const columns = d3.groups(layoutNodes, d => d.x0);
+
+    const maxNodeCount = d3.max(columns, ([, colNodes]) => colNodes.length);
+    const availableHeight = height - 200; // leave room for padding top/bottom
+    const dynamicPadding = (availableHeight - maxNodeCount * fixedHeight) / (maxNodeCount - 1);
+    nodePadding = Math.max(10, dynamicPadding); // never less than 10px
+
     const maxColHeight = d3.max(columns, ([, colNodes]) =>
-    colNodes.length * fixedHeight + (colNodes.length - 1) * nodePadding
+      colNodes.length * fixedHeight + (colNodes.length - 1) * nodePadding
     );
 
-    // === Center all columns relative to the same max height ===
     columns.forEach(([, colNodes]) => {
-    const totalHeight = colNodes.length * fixedHeight + (colNodes.length - 1) * nodePadding;
-    let yStart = (height - maxColHeight) / 2 + (maxColHeight - totalHeight) / 2;
+      const totalHeight = colNodes.length * fixedHeight + (colNodes.length - 1) * nodePadding;
+      let yStart = (height - maxColHeight) / 2 + (maxColHeight - totalHeight) / 2;
 
-    colNodes.forEach(node => {
+      colNodes.forEach(node => {
         node.y0 = yStart;
         node.y1 = yStart + fixedHeight;
         yStart += fixedHeight + nodePadding;
+      });
     });
-  });
+
 
   // === Center whole chart ===
   const minX = d3.min(layoutNodes, d => d.x0);
@@ -78,7 +84,7 @@ const preprocessData = (svgRef, chart) => {
   const chartHeight = maxY - minY;
 
   const offsetX = (width - chartWidth) / 10 - minX;
-  const offsetY = height - chartHeight + 200;
+  const offsetY = (height - chartHeight) / 2;
 
   layoutNodes.forEach((node) => {
     const mid = (node.y0 + node.y1) / 2;
@@ -150,7 +156,7 @@ const preprocessData = (svgRef, chart) => {
     .join("path")
     .attr("d", sankeyLinkHorizontal())
     .attr("stroke", "#5188cf")
-    .attr("stroke-width", d => Math.max(25, d.width));
+    .attr("stroke-width", 30);
 
   // Draw Nodes
   chartGroup.append("g")

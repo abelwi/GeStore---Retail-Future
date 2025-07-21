@@ -31,6 +31,14 @@ const SankeyChart = () => {
     }
   }, [chartData]);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => (prevIndex + 1) % chartRefs.length);
+    }, 5000); // Change every 5 seconds
+
+    return () => clearInterval(interval); // Clean up on unmount
+  }, []);
+
   const chartTitles = [
     t('howGestore.sankeyCharts.chart1'),
     t('howGestore.sankeyCharts.chart2'),
@@ -39,25 +47,28 @@ const SankeyChart = () => {
 
   return (
     <div className="container mx-auto px-4 mt-10">
-      <div className="flex flex-col mb-6">
+      <div className="flex flex-col">
         <h3 className="mb-4 text-3xl text-gray-600 font-semibold">
           {t('howGestore.heading')}
         </h3>
         <h6 className="text-base text-gray-500">{t('howGestore.subtext')}</h6>
       </div>
 
-      <div className="relative w-full h-[800px]">
-        {chartRefs.map((ref, index) => (
-          <svg
-            key={index}
-            ref={ref}
-            width="1300"
-            height="800"
-            className={`absolute top-0 left-0 transition-opacity duration-500 ${
-              index === activeIndex ? "opacity-100 z-10" : "opacity-0 z-0"
-            }`}
-          />
-        ))}
+      <div className="overflow-hidden w-full h-[800px] relative">
+        <div
+          className="flex transition-transform duration-700 ease-in-out"
+          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+        >
+          {chartRefs.map((ref, index) => (
+            <svg
+              key={index}
+              ref={ref}
+              width="1300"
+              height="800"
+              className="flex-shrink-0 w-full h-full"
+            />
+          ))}
+        </div>
       </div>
 
       <div className="text-center text-gray-600 text-2xl mt-6">
