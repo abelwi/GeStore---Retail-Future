@@ -162,6 +162,29 @@
     }
   },
   "footer": {
-    "slogan": "次世代の店舗インテリジェンス"
+    "slogan": "次世代のストアインテリジェンス",
+    "company": {
+        "title": "会社情報",
+        "terms": "利用規約",
+        "about": "私たちについて",
+        "team": "チーム",
+        "privacy": "プライバシー"
+    },
+    "pages": {
+        "title": "ページ",
+          "feature": "機能",
+        "useCase": "ユースケース",
+        "howItWork": "仕組み"
+    },
+    "resources": {
+        "title": "リソース",
+        "blog": "ブログ"
+    },
+    "copyright": "Copyright © 2025 Team GeStore & すべての権利を保有します。"
+  },
+  "blog": {
+    "title": "GeStoreブログ",
+    "subtitle": "私たちが参加したイベント、実験、研究に関するストーリー。",
+    "search_placeholder": "記事を検索"
   }
 }

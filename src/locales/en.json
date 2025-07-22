@@ -162,6 +162,33 @@
     }
   },
   "footer": {
-    "slogan": "The next generation of Store intelligence"
+    "slogan": "The Next Generation of Store Intelligence",
+
+    "company": {
+      "title": "Company",
+      "terms": "Terms",
+      "about": "About",
+      "team": "Team",
+      "privacy": "Privacy"
+    },
+
+    "pages": {
+      "title": "Pages",
+      "feature": "Feature",
+      "useCase": "Use Case",
+      "howItWork": "How It Works"
+    },
+
+    "resources": {
+      "title": "Resources",
+      "blog": "Blog"
+    },
+
+    "copyright": "Copyright © 2025 Team GeStore &amp; All rights reserved."
+  },
+  "blog": {
+    "title": "GeStore Blog",
+    "subtitle": "Histories about events, experiments, and research which we took part in.",
+    "search_placeholder": "Search for articles"
   }
 }

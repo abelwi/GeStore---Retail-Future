@@ -162,6 +162,29 @@
         }
     },
     "footer": {
-        "slogan": "Thế hệ tiếp theo của trí tuệ cửa hàng"
+        "slogan": "Thế hệ tiếp theo của trí tuệ cửa hàng",
+        "company": {
+            "title": "Công ty",
+            "terms": "Điều khoản",
+            "about": "Về chúng tôi",
+            "team": "Đội ngũ",
+            "privacy": "Bảo mật"
+        },
+        "pages": {
+            "title": "Trang",
+            "feature": "Tính năng",
+            "useCase": "Tình huống sử dụng",
+            "howItWork": "Cách hoạt động"
+        },
+        "resources": {
+            "title": "Tài nguyên",
+            "blog": "Blog"
+        },
+        "copyright": "Bản quyền © 2025 Team GeStore & Đã đăng ký mọi quyền."
+    },
+    "blog": {
+        "title": "GeStore Blog",
+        "subtitle": "Những câu chuyện về sự kiện, thí nghiệm và nghiên cứu mà chúng tôi đã tham gia.",
+        "search_placeholder": "Tìm kiếm bài viết"
     }
 }
